@@ -19,12 +19,12 @@
     "redux": "^5.0.1",
     "redux-devtools-extension": "^2.13.9",
     "web-vitals": "^2.1.4",
-    "react-query": "^3.39.2",       // React Query for data fetching
-    "styled-components": "^5.3.6",  // Styled-components for CSS-in-JS
-    "prop-types": "^15.8.1",        // Prop types for runtime type checking
-    "eslint-plugin-react": "^7.30.0", // ESLint plugin for React
-    "eslint-plugin-react-hooks": "^4.6.0", // React Hooks linting
-    "prettier": "^2.8.3"            // Prettier for code formatting
+    "react-query": "^3.39.2",       
+    "styled-components": "^5.3.6", 
+    "prop-types": "^15.8.1",        
+    "eslint-plugin-react": "^7.30.0", 
+    "eslint-plugin-react-hooks": "^4.6.0", 
+    "prettier": "^2.8.3"           
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,15 +36,15 @@
     "extends": [
       "react-app",
       "react-app/jest",
-      "plugin:react/recommended",   // Added React plugin for ESLint
-      "plugin:react-hooks/recommended" // Added React Hooks plugin for ESLint
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended" 
     ],
     "plugins": [
       "react",
       "react-hooks"
     ],
     "rules": {
-      "react/prop-types": "off" // Disable prop-types rule if you don't need them
+      "react/prop-types": "off" 
     }
   },
   "browserslist": {
